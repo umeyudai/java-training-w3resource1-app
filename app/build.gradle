@@ -26,10 +26,14 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.umeyudai.App'
+    mainClass = 'com.umeyudai.Exercise5'
 }
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+//apply plugin: 'java'
+//apply plugin: 'application'
+//mainClassName = "com.umeyudai.Exercise5" 
